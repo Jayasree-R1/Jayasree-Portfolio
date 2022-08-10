@@ -6,7 +6,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
 html {
   line-height: 1.15;
   /* 1 */
@@ -333,7 +332,7 @@ p {
 }
 
 h1 {
-  color: #223843;
+  color: #03afc2;
   line-height: 1;
   font-size: 3.125rem;
 }
@@ -357,19 +356,9 @@ h2 {
     font-size: 3rem;
   }
 }
-.side {
-  display: inline-block;
-  height: 60px;
-  width: 65px;
-  font-size: 0.73em;
-}
-.welcome {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 255),
-      rgba(255, 255, 255, 255)
-    ),
-    url(../img/header-bg22.png);
 
+.welcome {
+  background-image: url(../img/header-bg.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -393,7 +382,7 @@ h2 {
 .welcome h1 span {
   font-size: 5.5rem;
   letter-spacing: 0.15em;
-  /* color: #03afc2; */
+  color: #03afc2;
   text-transform: uppercase;
   line-height: 1;
   font-family: "Six Caps", sans-serif;
@@ -425,10 +414,9 @@ h2 {
   overflow: hidden;
 }
 
-.anime-typewriter {
-  animation: typewriter 5s steps(44) 1s 1 normal both,
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
-  /* animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; */
 }
 
 @keyframes typewriter {
@@ -452,7 +440,6 @@ h2 {
   color: rgba(255, 255, 255, 0.7);
 }
 .intro h2 {
-  /* color: #223843; */
   color: #ffffff;
 }
 .intro h2::after {
@@ -471,7 +458,6 @@ h2 {
 }
 
 .intro-middle {
-  /* background: #ffffff; */
   background: #223843;
   padding: 3.5em 5vw;
   text-align: center;
@@ -486,7 +472,6 @@ h2 {
   min-height: 100%;
   max-height: 100%;
   display: block;
-  filter: blur(2px);
 }
 
 .about-me {
@@ -514,8 +499,7 @@ h2 {
 
 .about-title {
   margin-bottom: 0.25em;
-  /* margin-left: 2em; */
-  font-weight: 400;
+  margin-left: 3.25em;
 }
 
 .about-subtitle {
@@ -567,7 +551,7 @@ h2 {
 }
 .portfolio {
   text-align: center;
-  /* background: #e7e7e7; */
+  background: #e7e7e7;
   padding: 5em 0;
 }
 @media (min-width: 50em) {
@@ -587,7 +571,7 @@ h2 {
 .portfolio-item {
   position: relative;
   overflow: hidden;
-  /* margin: 0; */
+  margin: 0;
   flex: 1 1 20rem;
 }
 .portfolio-item img {
@@ -601,8 +585,7 @@ h2 {
   left: 0;
   right: 0;
   padding: 2em;
-  background: #223843;
-  /* rgba(3, 175, 194, 0.75); */
+  background: rgba(3, 175, 194, 0.75);
   color: #ffffff;
   text-align: left;
   display: flex;
@@ -848,7 +831,7 @@ textarea {
   padding: 0.75em;
   width: 100%;
   min-width: 15em;
-  /* background: #f1f1f1; */
+  background: #f1f1f1;
   border: 1px solid #a7a7a7;
   font-size: 1.2rem;
 }
@@ -859,7 +842,7 @@ textarea {
   min-width: auto;
   margin-top: 1em;
   margin-left: auto;
-  background: #223843;
+  background: #03afc2;
   border: none;
   padding: 0.5em 1.5em;
   font-size: 2rem;
@@ -931,7 +914,7 @@ nav ul {
   height: 100vh;
   justify-content: space-around;
   align-items: strech;
-  background: #f9fafa;
+  background: #03afc2;
 }
 nav li {
   border-bottom: 1px solid #223843;
